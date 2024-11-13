@@ -1,0 +1,98 @@
+/* styles.css */
+
+/* Reset default margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Gaya untuk header */
+header {
+    background: #007BFF; /* Warna biru */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Gaya untuk bagian utama */
+main {
+    padding: 20px;
+}
+
+/* Gaya untuk section introduction */
+.introduction {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk gambar */
+.introduction img {
+    display: block;
+    margin: 0 auto 20px; /* Centering the image */
+    border-radius: 8px;
+}
+
+/* untuk men-justify paragraf */
+.justified {
+    text-align: justify;
+}
+
+/* Gaya untuk section details */
+.details {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Gaya untuk footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007BFF; /* Warna biru */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Gaya untuk daftar */
+ul {
+    list-style-type: none; /* Menghilangkan bullet points */
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Pointer/hand icon on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
